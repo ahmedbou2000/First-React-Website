@@ -1,4 +1,8 @@
+:root{
+    --color-dark : #343a40
+}
+
 body{
-    background-color: teal;
+    background-color: var( --color-dark );
     color: aliceblue;
 }

@@ -9,7 +9,7 @@ class Header extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
                     <a className="navbar-brand" href="#">React Website</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@ class Header extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <NavItem >
-                                <a className="nav-link" href="#">Home</a>
+                                <a className="nav-link " href="#">Home</a>
                             </NavItem>
                             <NavItem >
                                 <a className="nav-link" href="#">Browse</a>

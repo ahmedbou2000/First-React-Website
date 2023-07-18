@@ -9,7 +9,7 @@ class Container extends Component {
 
     render(){
         return (
-            <h1>Container</h1>
+            this.props.children
         )
     }
 }

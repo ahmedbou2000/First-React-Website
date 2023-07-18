@@ -1,19 +1,21 @@
 import { Component } from "react";
 import './App.css'
-import { Header, Container, Footer} from './components/componentsExporter' 
+import { Header, Container, Footer, Hero} from './components/componentsExporter'
 
 class App extends Component {
-    constructor(){
+    constructor() {
         super()
     }
 
-    render(){
+    render() {
         return (
-            <>
-                <Header/>
-                <Container />
+            <div>
+                <Header />
+                <Container >
+                    <Hero />
+                </Container>
                 <Footer />
-            </>
+            </div>
         )
     }
 }
