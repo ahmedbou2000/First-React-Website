@@ -8,8 +8,8 @@ const Hero = (props) => {
                 <h6 className='hero-subtitle'>Welcome to my React Website</h6>
                 <h4 className='hero-title'> <em>Browse</em> Our Games Here</h4>
 
-                <div className='main-button'>
-                    <a href='browse.html'>Browse Now</a>
+                <div className='main-button btn '>
+                    <a className='text-white' href='browse.html'>Browse Now</a>
                 </div>
             </div>
         </div>

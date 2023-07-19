@@ -1,8 +1,17 @@
 :root{
-    --color-dark : #343a40
+    --color-dark : #343a40;
+    --color-darkest : #25292d;
 }
 
 body{
     background-color: var( --color-dark );
     color: aliceblue;
+}
+
+ul {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
 }

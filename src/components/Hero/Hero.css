@@ -1,6 +1,9 @@
 .main-hero  {
     border-radius: 25px;
     padding: 50px;
+    background-blend-mode: darken ;
+    background: url('../../assets/images/manette.jpg') no-repeat ;
+    background-size: cover;
 }
 
 .hero-text {
@@ -11,10 +14,15 @@
     font-size: 60px;
     text-transform: uppercase;
     margin-bottom: 25px;
-    font-weight: 900;
+    font-weight: 800;
 }
 
-.hero-title em {
+.hero-title em  {
     font-style: normal;
     color: hotpink;
+}
+
+.main-button {
+    background-color: hotpink;
+    font-weight: 600;
 }

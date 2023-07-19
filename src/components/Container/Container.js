@@ -3,13 +3,15 @@ import './Container.css'
 
 
 class Container extends Component {
-    constructor(){
+    constructor() {
         super()
     }
 
-    render(){
+    render() {
         return (
-            this.props.children
+            <div className="container">
+                {this.props.children}
+            </div>
         )
     }
 }

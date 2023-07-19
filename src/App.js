@@ -1,6 +1,6 @@
 import { Component } from "react";
 import './App.css'
-import { Header, Container, Footer, Hero} from './components/componentsExporter'
+import { Header, Container, Footer, Hero ,MostPopular} from './components/componentsExporter'
 
 class App extends Component {
     constructor() {
@@ -9,13 +9,14 @@ class App extends Component {
 
     render() {
         return (
-            <div>
+            <>
                 <Header />
                 <Container >
                     <Hero />
+                    <MostPopular />
                 </Container>
                 <Footer />
-            </div>
+            </>
         )
     }
 }
