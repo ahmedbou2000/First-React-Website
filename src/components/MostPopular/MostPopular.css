@@ -5,13 +5,25 @@
 .most-popular-item {
     display: inline-block;
     margin: 10px;
+    height: 220px;
+    width: 220px;
+}
+
+.card-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-dark);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+   
 }
 
 .section-wrapper {
     background-color: var(--color-darkest);
     border-radius: 25px;
     padding: 25px;
-    
+      
 }
 
 .section-header h4 {
@@ -19,18 +31,10 @@
     font-weight: 600;
 }
 
-.card-wrapper {
-    background-color: var(--color-dark);
-    border-radius: 20px;
-    width: 200px;
-    overflow: hidden;
-    padding: 10px;
-}
-
 .most-popular-item-image {
     max-width: 100%;
     border-radius: 10px;
-
+    margin-bottom: 10px;
 }
 
 .most-popular-item-content {
@@ -38,10 +42,15 @@
     justify-content: space-between;
 }
 
-.most-popular-item-title {
-    font-size: 20px;
+.most-popular-item-title  {
+    font-size: 15px;
+    font-weight: bold;
+    color: hotpink;
 }
-
+.most-popular-item-title span {
+    padding-top: 20px;
+    color: white;
+}
 
 
 
